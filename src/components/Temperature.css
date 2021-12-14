@@ -1,0 +1,55 @@
+.red {
+    color: red
+}
+
+.orange {
+    color: orange
+}
+
+.yellow {
+    color: gold
+}
+
+.green {
+    color: greenyellow
+}
+
+.teal {
+    color: cyan
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 14pt;
+    color: white;
+    /* border: solid; */
+    border-color: white;
+    transition: all 1s;
+}
+
+button:active {
+    transform: translateY(8px);
+}
+
+.incTempButton:hover{
+    background-color: coral;
+}
+
+.decTempButton:hover{
+    background-color: cornflowerblue;
+}
+
+/* button {
+    transition: all 2s;
+} */
+
+h1 {
+    font-size: 70pt;
+    transition: all .5s;
+}
+
+h2 {
+    color: white;
+}
